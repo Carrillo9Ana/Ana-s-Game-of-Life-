@@ -1,5 +1,6 @@
 # Ana-s-Game-of-Life-
 Ana's version of Conway's "Game of Life"
+    Open the game-of-life folder
 ## Cellular Automata and Conway's "Game of Life"
 [from Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns)
 ---
