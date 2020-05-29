@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Ana-s-Game-of-Life-/static/css/main.84da9175.chunk.css",
+    "main.js": "/Ana-s-Game-of-Life-/static/js/main.fd955999.chunk.js",
+    "main.js.map": "/Ana-s-Game-of-Life-/static/js/main.fd955999.chunk.js.map",
+    "runtime-main.js": "/Ana-s-Game-of-Life-/static/js/runtime-main.281c0818.js",
+    "runtime-main.js.map": "/Ana-s-Game-of-Life-/static/js/runtime-main.281c0818.js.map",
+    "static/js/2.0aef4f24.chunk.js": "/Ana-s-Game-of-Life-/static/js/2.0aef4f24.chunk.js",
+    "static/js/2.0aef4f24.chunk.js.map": "/Ana-s-Game-of-Life-/static/js/2.0aef4f24.chunk.js.map",
+    "index.html": "/Ana-s-Game-of-Life-/index.html",
+    "precache-manifest.9670a5108f8f7eaaff0393831dd35308.js": "/Ana-s-Game-of-Life-/precache-manifest.9670a5108f8f7eaaff0393831dd35308.js",
+    "service-worker.js": "/Ana-s-Game-of-Life-/service-worker.js",
+    "static/css/main.84da9175.chunk.css.map": "/Ana-s-Game-of-Life-/static/css/main.84da9175.chunk.css.map",
+    "static/js/2.0aef4f24.chunk.js.LICENSE.txt": "/Ana-s-Game-of-Life-/static/js/2.0aef4f24.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.281c0818.js",
+    "static/js/2.0aef4f24.chunk.js",
+    "static/css/main.84da9175.chunk.css",
+    "static/js/main.fd955999.chunk.js"
+  ]
+}
