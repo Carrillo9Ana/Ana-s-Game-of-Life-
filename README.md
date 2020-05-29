@@ -1,8 +1,7 @@
 # Ana-s-Game-of-Life-
 Ana's version of Conway's "Game of Life"
-    **To Play react app cd into 
-     Open the game-of-life folder or play here: http://acarrillo3.github.io/Ana-s-Game-of-Life-
-    **To Play python version cd into its folder and run the GOL.py file
+**To Play react app open the game-of-life folder or play here: http://acarrillo3.github.io/Ana-s-Game-of-Life-
+**To Play python version cd into its folder and run the GOL.py file
     
 ## Cellular Automata and Conway's "Game of Life"
 [from Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns)
