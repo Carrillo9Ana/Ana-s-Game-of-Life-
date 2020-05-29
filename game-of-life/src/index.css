@@ -70,3 +70,17 @@ h4 {
 .container {
   display: flex;
 }
+
+.textinfo {
+  background-color: white;
+  padding: 2%;
+  margin: 5% 0%;
+}
+
+.boxcontent {
+  display: flex;
+}
+
+.game {
+  margin: 10%
+}

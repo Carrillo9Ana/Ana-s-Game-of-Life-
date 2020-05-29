@@ -203,24 +203,37 @@ class Container extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class="boxcontent">
                 <h1>Conway's Game of Life</h1>
-                <Buttons
-                  playButton={this.playButton}
-                  pauseButton={this.pauseButton}
-                  slow={this.slow}
-                  fast={this.fast}
-                  clear={this.clear}
-                  seed={this.seed}
-                  gridSize={this.gridSize}
-                />
-                <Grid
-                  gridFull={this.state.gridFull}
-                  rows={this.rows}
-                  cols={this.cols}
-                  selectBox={this.selectBox}
-                />
-                <h1>Generations: {this.state.generation}</h1>    
+                <div class="textinfo">
+                  <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life" target="_blank"><p>Sourced from Wikipedia.org</p></a>
+                  <p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.</p>
+                  <h2>Rules</h2>
+                  <p>The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+                  <ol>
+                    <li>Any live cell with two or three live neighbours survives.</li>
+                    <li>Any dead cell with three live neighbours becomes a live cell.</li>
+                    <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
+                  </ol>
+                </div>
+                <div class="game">
+                  <Buttons
+                    playButton={this.playButton}
+                    pauseButton={this.pauseButton}
+                    slow={this.slow}
+                    fast={this.fast}
+                    clear={this.clear}
+                    seed={this.seed}
+                    gridSize={this.gridSize}
+                  />
+                  <Grid
+                    gridFull={this.state.gridFull}
+                    rows={this.rows}
+                    cols={this.cols}
+                    selectBox={this.selectBox}
+                  />
+                  <h2>Generations: {this.state.generation}</h2>
+                </div>    
             </div>
         );
     }
