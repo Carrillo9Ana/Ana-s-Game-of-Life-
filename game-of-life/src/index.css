@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(34, 0, 128); 
+  background-image: url(https://images.unsplash.com/photo-1561246284-89296d4721e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 }
   
 .box {
   display: inline-block;       
-  border: 1px solid black;
+  border: 1px solid rgb(137, 175, 87);
   width: 15px;
   height: 15px;
   margin-left: -1px;
@@ -12,15 +12,15 @@ body {
   }
 
 .off {
-  background-color: rgb(255, 250, 250);
+  background-color: rgb(2, 2, 2);
 }
 
 .on {
-  background-color: rgb(0, 98, 128);
+  background-color: rgb(255, 255, 255);
 }
   
 .box:hover { 
-  background: rgb(255, 230, 0);
+  background: rgb(255, 239, 8);
 }
 
 .center {
@@ -47,4 +47,26 @@ h1, h2, h3, h4 {
 
 h4 {
   margin-top: 0px;
+}
+
+.button {
+  margin: 0 5px;
+  border: #ffffff 3px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #20f5b5;
+  font-size: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #faf8fa;
+  color: rgb(74, 233, 145);
+  font-weight: bold;
+
+}
+
+.container {
+  display: flex;
 }
